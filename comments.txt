@@ -1,0 +1,38 @@
+From manage.py:-
+
+* Importing libraries for flask
+* creating a data dictionary
+* function for recreating database
+* function to get all the data from list above
+* Seeding the editor
+* calling the functions created above
+* if current_app.config.get('ENV') not in ('development', 'test', 'testing'):
+* print("ERROR: seed-db only allowed in development and testing env.")
+* return 
+
+From __init__.py:-
+
+* Importing libraries for flask
+* instantiate the extensions
+* instantiate the app
+* set configz
+* set up extensions
+* register blueprints
+* shell context for flask cli
+
+From api.py:-
+* Importing all the required libraries
+* Function for login
+* Function for log out
+* Function for adding address
+* Function for creating orders
+* Function for helps
+* Function for search
+* Function for executing the codes
+
+From models.py:-
+* Importing all the required libraries
+* creating class for address
+* function to update details
+
+    
